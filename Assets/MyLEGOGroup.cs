@@ -57,6 +57,12 @@ public class MyLEGOGroup : MonoBehaviour
         }
     }
 
+    public void DestroyMe()
+    {
+        DestroyBrokenPieces();
+        Destroy(gameObject);
+    }
+
     void Start()
     {
         foreach (Transform child in this.transform)
@@ -100,7 +106,7 @@ public class MyLEGOGroup : MonoBehaviour
             }
             if (deathtimer >= 500)
             {
-                DestroyBrokenPieces();
+                DestroyMe();
             }
         }
     }
