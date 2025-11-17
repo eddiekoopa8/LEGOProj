@@ -6,11 +6,11 @@ using System.Text;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-public class MyLEGOGroup : MonoBehaviour
+public class MyLEGOFigure : MonoBehaviour
 {
-    public bool Broken = false;
+    bool Broken = false;
 
-    // int breakIntensity = 2;
+    public bool FigureBroken { get { return Broken; } }
 
     int randInt(int min, int max)
     {
@@ -40,7 +40,7 @@ public class MyLEGOGroup : MonoBehaviour
             utils.SetVelocityZ(objChild.GetComponent<Rigidbody>(), randInt(-breakIntensity, breakIntensity));
 
             if (GetComponent<Rigidbody>() != null) GetComponent<Rigidbody>().isKinematic = true;
-            if (GetComponent<Collider>() != null) GetComponent<Collider>().enabled = false;
+            if (GetComponent<Collider>() != null) GetComponent<Collider>().enabled = true;
 
             Broken = true;
             deathtimer = 0;
@@ -73,7 +73,7 @@ public class MyLEGOGroup : MonoBehaviour
                 continue;
             }
 
-            Debug.Log("[OBJ:\"" + this.name + "\"] will be used " + objChild.name);
+            Debug.Log("[OBJ:\"" + this.name + "\"] will be using " + objChild.name);
         }
     }
     float deathtimer = 0;
