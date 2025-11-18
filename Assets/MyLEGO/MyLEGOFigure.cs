@@ -91,7 +91,7 @@ public class MyLEGOFigure : MonoBehaviour
             if (deathtimer >= 330)
             {
                 flashtimer += Time.deltaTime * 100;
-                foreach (Transform child in this.transform)
+                foreach (Transform child in transform)
                 {
                     GameObject objChild = child.gameObject;
                     if (flashtimer >= 10)

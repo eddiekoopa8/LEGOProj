@@ -4,16 +4,21 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 // STRUCT CLASS FOR MyLEGOBuild
-public class ml_build_collide : MonoBehaviour
+public class ml_build_brick : MonoBehaviour
 {
 
     static int STT_BOUNCE = 0;
     static int STT_BUILD = 1;
     static int STT_INACTIVE = 2;
 
+    static float MOVE_SPEED = 5;
+
     int state = STT_BOUNCE;
 
+    bool playBuildSound = false;
+
     public Rigidbody hRigidbody { get { return body; } }
+    public BoxCollider hBoxCollider { get { return collider; } }
 
     // building
     Vector3 oldPos;
@@ -31,22 +36,24 @@ public class ml_build_collide : MonoBehaviour
     private new BoxCollider collider;
     private Rigidbody body;
     public GameObject Object = null;
-
-    public void Start()
+    public void Awake()
     {
         state = STT_BOUNCE;
 
         // building
         oldPos = gameObject.transform.position;
         oldRot = gameObject.transform.rotation;
+    }
 
+    public void Start()
+    {
         // collision listening
         Touching = false;
         Object = null;
         collider = gameObject.AddComponent<BoxCollider>();
         body = gameObject.AddComponent<Rigidbody>();
-        Debug.Assert(collider != null, "FUCK!!! collider failed to be born. attempting to get existing");
-        Debug.Assert(body != null, "FUCK!!! body failed to be born. attempting to get existing");
+        Debug.Assert(collider != null, "collider failed to be born. attempting to get existing");
+        Debug.Assert(body != null, "body failed to be born. attempting to get existing");
         if (collider == null)
         {
             collider = gameObject.GetComponent<BoxCollider>();
@@ -59,18 +66,23 @@ public class ml_build_collide : MonoBehaviour
         body.angularDrag = 0.1f;
         body.mass = 500f;
 
-        DoBounce();
+        DoBounceLoop();
     }
 
     // states
-    public void DoBounce()
+    public void DoBounceLoop()
     {
-        body.isKinematic = false;
         state = STT_BOUNCE;
+
+        collider.enabled = Bouncing;
+        body.isKinematic = !Bouncing;
     }
-    public void DoBuild()
+    public void DoBuildLoop()
     {
         state = STT_BUILD;
+
+        collider.enabled = Bouncing;
+        body.isKinematic = !Bouncing;
     }
 
     // bounce
@@ -102,7 +114,21 @@ public class ml_build_collide : MonoBehaviour
     // building
     public void BuildGoto()
     {
-        body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, 0.5f);
+        playBuildSound = false;
+
+        float newSpeed = (MOVE_SPEED / 10);
+        body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, newSpeed);
+        body.transform.rotation = oldRot;
+    }
+
+    public void PostBuildGoto()
+    {
+        if (!playBuildSound)
+        {
+            Debug.Log("playBuildSound");
+            playBuildSound = true;
+        }
+        body.transform.position = oldPos;
         body.transform.rotation = oldRot;
     }
 
@@ -114,15 +140,11 @@ public class ml_build_collide : MonoBehaviour
     // done!
     public void SetInactive()
     {
-        Destroy(body);
+        if (body != null)
+        {
+            Destroy(body);
+        }
         state = STT_INACTIVE;
-    }
-
-    // main logic
-    public void Update()
-    {
-        collider.enabled = Bouncing;
-        body.isKinematic = !Bouncing;
     }
 
     // collision listening

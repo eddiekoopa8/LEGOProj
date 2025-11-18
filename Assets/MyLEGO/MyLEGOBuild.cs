@@ -12,25 +12,25 @@ public class MyLEGOBuild : MonoBehaviour
         return bricks.Count;
     }
 
-    List<ml_build_collide> bricks;
+    List<ml_build_brick> bricks;
     // Start is called before the first frame update
     void Start()
     {
-        bricks = new List<ml_build_collide>();
+        bricks = new List<ml_build_brick>();
 
         foreach (Transform child in this.transform)
         {
             GameObject objChild = child.gameObject;
 
-            ml_build_collide brick = null;
+            ml_build_brick brick = null;
 
-            if (objChild.GetComponent<ml_build_collide>() == null)
+            if (objChild.GetComponent<ml_build_brick>() == null)
             {
-                brick = objChild.AddComponent<ml_build_collide>();
+                brick = objChild.AddComponent<ml_build_brick>();
             }
             else
             {
-                brick = objChild.GetComponent<ml_build_collide>();
+                brick = objChild.GetComponent<ml_build_brick>();
             }
 
             if (brick == null)
@@ -46,14 +46,14 @@ public class MyLEGOBuild : MonoBehaviour
         GetBrickCount();
     }
 
-    bool bounceAfterComplete = false;
+    bool built = false;
 
     void Update()
     {
         int buildIndex = 0;
-        for (int i = 0; i < GetBrickCount(); i++)
+        for (int i = 0; i < GetBrickCount() && !built; i++)
         {
-            ml_build_collide brick = bricks.ElementAt(i);
+            ml_build_brick brick = bricks.ElementAt(i);
 
             if (brick.Inactive)
             {
@@ -72,11 +72,14 @@ public class MyLEGOBuild : MonoBehaviour
 
             if (brick.Building)
             {
-                brick.BuildGoto();
                 if (brick.Built())
                 {
-                    brick.SetInactive();
-                    buildIndex += buildIndex >= GetBrickCount() ? 0 : 1;
+                    buildIndex += buildIndex > GetBrickCount() ? 0 : 1;
+                    brick.PostBuildGoto();
+                }
+                else
+                {
+                    brick.BuildGoto();
                 }
             }
 
@@ -84,15 +87,30 @@ public class MyLEGOBuild : MonoBehaviour
             {
                 if (i <= buildIndex)
                 {
-                    brick.DoBuild();
+                    brick.DoBuildLoop();
                 }
             }
             else
             {
-                brick.DoBounce();
+                brick.DoBounceLoop();
             }
+        }
 
-            brick.Update();
+        if (buildIndex >= GetBrickCount() && !built)
+        {
+            for (int i = 0; i < GetBrickCount(); i++)
+            {
+                if (gameObject.GetComponent<Rigidbody>() == null)
+                {
+                    gameObject.AddComponent<Rigidbody>();
+                    gameObject.GetComponent<Rigidbody>().mass = 1000;
+                    gameObject.GetComponent<Rigidbody>().freezeRotation = true;
+                }
+                bricks.ElementAt(i).SetInactive();
+            }
+            utils.SetVelocityY(gameObject.GetComponent<Rigidbody>(), 5);
+            Debug.Log("done");
+            built = true;
         }
     }
 }
