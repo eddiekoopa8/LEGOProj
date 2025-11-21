@@ -11,7 +11,7 @@ public class ml_build_brick : MonoBehaviour
     static int STT_BUILD = 1;
     static int STT_INACTIVE = 2;
 
-    static float MOVE_SPEED = 5;
+    static float MOVE_SPEED = 3;
 
     int state = STT_BOUNCE;
 
@@ -45,9 +45,13 @@ public class ml_build_brick : MonoBehaviour
         oldRot = gameObject.transform.rotation;
     }
 
+    AudioSource snd;
     public void Start()
     {
-        // collision listening
+        snd = gameObject.AddComponent<AudioSource>();
+        snd.clip = Resources.Load(ml_globals.AUDIO + "build") as AudioClip;
+        snd.playOnAwake = false;
+
         Touching = false;
         Object = null;
         collider = gameObject.AddComponent<BoxCollider>();
@@ -83,6 +87,8 @@ public class ml_build_brick : MonoBehaviour
 
         collider.enabled = Bouncing;
         body.isKinematic = !Bouncing;
+
+        body.velocity = Vector3.zero;
     }
 
     // bounce
@@ -121,13 +127,18 @@ public class ml_build_brick : MonoBehaviour
         body.transform.rotation = oldRot;
     }
 
-    public void PostBuildGoto()
+    public void BuildSound()
     {
         if (!playBuildSound)
         {
             Debug.Log("playBuildSound");
+            snd.Play();
             playBuildSound = true;
         }
+    }
+
+    public void PostBuildGoto()
+    {
         body.transform.position = oldPos;
         body.transform.rotation = oldRot;
     }

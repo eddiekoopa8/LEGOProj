@@ -13,6 +13,7 @@ public class MyLEGOBuild : MonoBehaviour
     }
 
     List<ml_build_brick> bricks;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -75,6 +76,7 @@ public class MyLEGOBuild : MonoBehaviour
                 if (brick.Built())
                 {
                     buildIndex += buildIndex > GetBrickCount() ? 0 : 1;
+                    brick.BuildSound();
                     brick.PostBuildGoto();
                 }
                 else

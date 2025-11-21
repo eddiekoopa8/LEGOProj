@@ -20,12 +20,15 @@ public class MyLEGOFigure : MonoBehaviour
         return myval;
     }
 
+    AudioSource snd;
+
     public void BreakIntoPieces(int breakIntensity = 2)
     {
         if (Broken)
         {
             return;
         }
+        snd.Play();
         foreach (Transform child in this.transform)
         {
             GameObject objChild = child.gameObject;
@@ -65,6 +68,9 @@ public class MyLEGOFigure : MonoBehaviour
 
     void Start()
     {
+        snd = gameObject.AddComponent<AudioSource>();
+        snd.clip = Resources.Load(ml_globals.AUDIO + "break") as AudioClip;
+        snd.playOnAwake = false;
         foreach (Transform child in this.transform)
         {
             GameObject objChild = child.gameObject;
@@ -80,9 +86,14 @@ public class MyLEGOFigure : MonoBehaviour
     float flashtimer;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit))
         {
-            BreakIntoPieces();
+            if (hit.collider.gameObject.name == gameObject.name && Input.GetMouseButtonDown(0))
+            {
+                BreakIntoPieces();
+            }
         }
 
         if (Broken)
