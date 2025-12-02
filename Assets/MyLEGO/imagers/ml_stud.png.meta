@@ -1,0 +1,3277 @@
+fileFormatVersion: 2
+guid: e2bd77e9a645e114b93ac7621375456f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ml_stud_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 596
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dc632aa436584488604c0cc856b3a6
+      internalID: -1138658479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 602
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608a36a544a80ff4598273e21bf510c4
+      internalID: 101150234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 603
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8268f4c59e1628b4e84e09a7ed6a8d8d
+      internalID: 560660569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 603
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122655edcec366c41b0db59992b3efd6
+      internalID: 968148453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 603
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29731d1b987b49b499712c1e7c9a69f0
+      internalID: 1578762177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 603
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1569c201812548e42bdb779a2f921fb2
+      internalID: -1182714075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_6
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 605
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601fa87e09720c847a145a0cb60feab3
+      internalID: -947036026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 605
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fcd667f9b5ff84ebe3d6d5ba12e3c7
+      internalID: 1387046258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_8
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 604
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dae3cbc92d3034408f8d2b9e1ddc237
+      internalID: 300986853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_9
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 604
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bf715f611f08b43b2db0c639c5fe66
+      internalID: 2111385523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_10
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 604
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f4958c542728418ff440a797b77be
+      internalID: -2066631861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_11
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 603
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0f2b3e591923244bf75d9735472a2e
+      internalID: 1713556960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_12
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 603
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ba270a3208f3949a8afa469ac9d560
+      internalID: -1619178863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_13
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 602
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab60e5314094d8649a906594971ee986
+      internalID: 1550434194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_14
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 601
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7511079a6e566cf46b0e36fe4cf5e0cf
+      internalID: 1063407447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_15
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 601
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217fc2986f2a55d478b3e565d69a6261
+      internalID: 1355393282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 527
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940e5c599a0ad6a45818963c61424279
+      internalID: -1365237309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 532
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c18eafe5055e3144ab2324c4214b2ce
+      internalID: 435638624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 533
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b9e5912386cbb4da55d9a0e8d8a1fc
+      internalID: 439623527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 532
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5135a30cb3aaaf24a9104c536a08a5f6
+      internalID: 2125054846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_20
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 532
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16af16e0920d04f49aad065392089efb
+      internalID: -124643952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_21
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 532
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75651c1f36f5e6c4eb4cfcd6423983f2
+      internalID: 146179450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_22
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 535
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79471f353444944ba8bddfd2e911c31
+      internalID: 1601403395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_23
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 535
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f9ef9e0ca867488b85e894a989ce3
+      internalID: 1127409133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_24
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 535
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fb3551588cf0644ac19546a6ed9f19
+      internalID: 1813750925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_25
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 535
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf5bff58a703d14eb98b02a806d60e9
+      internalID: 854426581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_26
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 535
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615c897cc777f82458f31e9ffabc415c
+      internalID: -1423109284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_27
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 532
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365f027d965e6f84db95cf02465b330e
+      internalID: 1755727691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_28
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 532
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b6190c85d51a14ea7c0362ed8e4111
+      internalID: 456213492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_29
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 532
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d282d71c0f0f5a34f9b874b6ef646316
+      internalID: 368800588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_30
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 534
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1b6e2e1cb05c249a54154c4c13f673
+      internalID: -945974619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_31
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 532
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f983fde50a06bf8418da054aff6419a2
+      internalID: 2114164321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 518
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204cd131b2de4a648b69e89608ec9fc4
+      internalID: -492129151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 453
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a180727bee9c4848a3782f775e6c748
+      internalID: 1287144884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_34
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 455
+        width: 42
+        height: 59
+      alignment: 9
+      pivot: {x: 0.529785, y: 0.47879547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4841e3715b61f964c9c878205804c653
+      internalID: -423034408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 454
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38bd3119dd50fa419561d5b33180017
+      internalID: 953144384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_36
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 454
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb83509710b0e343ae27be63664ebe0
+      internalID: 1872681628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 454
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71873b2b739356c4dbc18c94d07d8708
+      internalID: 1451032464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_38
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 454
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64212c2b858374a4e84dddea95bab7f7
+      internalID: 1178076745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_39
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 456
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e74f016da5b75f46aaf3d483d40ee0b
+      internalID: 643253328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_40
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 456
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad74c5922d7b644d829431b3bbc74fa
+      internalID: 836299077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_41
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 455
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a245cb8e130b7438918a6610dbb2e0
+      internalID: 1821543085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_42
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 455
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66451de35abd07c40921ff05c0c98eef
+      internalID: -1979311585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_43
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 455
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f91d6d1625271d45a88c1b022a2b605
+      internalID: 231386138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_44
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 454
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a84b562201c39641b1adc82640ef1b2
+      internalID: -5733612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_45
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 454
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded98a779962d984b8bd953a23ebb88d
+      internalID: 2122244141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_46
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 453
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d53cfb1f78ad341be85a5871eba513
+      internalID: 362363527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_47
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 452
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc911a10fd8e3542a8d86f850d3ca11
+      internalID: 1286857448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_48
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 452
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf62c75cce8386548bcc4c964de3505e
+      internalID: 772820204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 369
+        width: 52
+        height: 77
+      alignment: 9
+      pivot: {x: 0.6684043, y: 0.5731106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff181f81ec5d25846abc61cd3d671b8f
+      internalID: 138371040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 383
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e446572bcebb41a4dea13a5e744e0
+      internalID: -1528551576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_51
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 384
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e9330faf7b49a4a8b901db6b90a00e
+      internalID: 1846884230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_52
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 383
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e986cb41e85023429dac104175b1be9
+      internalID: 24206198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_53
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 383
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d232523dcc6d42044a25a13322d6ea6d
+      internalID: -541260157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_54
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 383
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d3531954c0f104b9f77c92e3b99f3c
+      internalID: -1607107968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_55
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 386
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e375819276f734fa43ee0defed543e
+      internalID: -1402714541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_56
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 386
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507fc6263e54714a878c7bd4022ae71
+      internalID: -1534415951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_57
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 386
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee55f1966b56b14eb3d51abd1afb0ae
+      internalID: 1741509856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_58
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 386
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935cbb81d6297874b9e8ef4bf68fa951
+      internalID: 755118520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_59
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 386
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b58356502c14b44ab50c9b5700a0042
+      internalID: -2034497734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_60
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 383
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836c5aca5aef1ac408ff6f7c36738313
+      internalID: -767676058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_61
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 383
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36330eb371a198a41b2b437c1ea7b258
+      internalID: -1946089204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_62
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 383
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1815d85147d8b4c4f9c1b60cac41b6e8
+      internalID: 1221785656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_63
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 385
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040f3518b70d165459976d29f9eb694b
+      internalID: -1229039747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_64
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 383
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f88cd54644dd2429799a30c06d22f0
+      internalID: 1288789626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_65
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 369
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472227236cc67f74091b00ed6052c53c
+      internalID: -505490396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_66
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 369
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad18434d04b35245a0683c949a8d7bd
+      internalID: -1030528870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 369
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ed8900d4c8f3d4c9438bbf9a8ea0e3
+      internalID: -94094172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e25675dc50ea84459604a6801d3560f
+      internalID: -649914862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_69
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 304
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea833991104815c42960967d2fb74891
+      internalID: -469207593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_70
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 305
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05097c1bb5a939478b20aa158fb5494
+      internalID: 695389762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_71
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 305
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4553034e5820b444b5a29fe5095ded0
+      internalID: -941391242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_72
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 305
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f83b5f344b9094290d8e95189c0c1c
+      internalID: 1257303598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_73
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 305
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025b477314e26f546b636100a75c9611
+      internalID: -1315436955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_74
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 307
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b53727cab5f2c4da5d029c2c1403f8
+      internalID: 2046284307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_75
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 307
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae793263bc7c1246a2a1ec459d81c7c
+      internalID: -400431198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_76
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 306
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98562233a82e7d648ac455eb7de66679
+      internalID: -70423736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_77
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 306
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2373c9aa029754db2190abce818568
+      internalID: 881791673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_78
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 306
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2971cc41aba56eb49be6d3e77a9258e6
+      internalID: -1686204622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_79
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 305
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239f8b744db747418d2e03bde175049
+      internalID: -1849840125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_80
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 305
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620f8f6ad91584148b84efa9966065cc
+      internalID: 1480921546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_81
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 304
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db428b6795d909e42bf77809ea631567
+      internalID: -1909921308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_82
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 303
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598b941b0040a74892947ed0168a5aa
+      internalID: 359699467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_83
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 303
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9cab0049948d44690b9b84470ed8a2
+      internalID: 2086049764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_84
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 218
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ee65896e1017f4d81f8ef501568e34
+      internalID: -2089157516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_85
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 234
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002804eba18fc834ca4dcd2e28b1faa0
+      internalID: -51438492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_86
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 235
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390b0bff02fe60f408a5416b51bd0b85
+      internalID: -595605382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_87
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 234
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6222dc07a5168f458b6a5f3eb289a6a
+      internalID: 528081417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_88
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 234
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b7fed61d31390469b0353d981634ae
+      internalID: 1295516657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_89
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 234
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780edbb2518f5eb4f8ccb3a203c2fd7a
+      internalID: -718568299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_90
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 237
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de89c0218b5dc7d4c8ecab316305c7f8
+      internalID: 592158219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_91
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 237
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83c37c83f35cdf4baa3f438ebfc7cc4
+      internalID: 882504325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_92
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 237
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11107f85ee45687438816b83474893e8
+      internalID: 1012533104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_93
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 237
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34613a29885ec0745aed6bb90694573b
+      internalID: -1140150098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_94
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 237
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eddc2654b800484397661435a937957
+      internalID: -83212997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_95
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 234
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464324ca6b76bcd42ae0fc4e27514d62
+      internalID: -1998270006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_96
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 234
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707eca73f4ae46d4bb1997b8c3c89282
+      internalID: 597846671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_97
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 234
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166388819337f2645b1d58e1bfda1388
+      internalID: -2077090746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_98
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 236
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2025d8f6795d0f47836e8c9bc2dd3de
+      internalID: 1200341420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_99
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 234
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d769d389342d044b8e96984926593eb
+      internalID: -1135056818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_100
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 155
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e7c480f60f17647b21b74799977dfe
+      internalID: -1721792650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_101
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 155
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354418db956ac1749a01524b11a975ba
+      internalID: 136588578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_102
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 156
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8f3c6192e71c6469311471ac445929
+      internalID: 1980849702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_103
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 156
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22021c46b9ab74046888c2c3473fa17a
+      internalID: 1102456155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_104
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 156
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23979391de831941953a34356951c06
+      internalID: -229129177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_105
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 156
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23030d4213a9f5d4ea73ca10948164c7
+      internalID: 1056290004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_106
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 158
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ea6716dcee7942b4fc47a08c8e7a8
+      internalID: 199991788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_107
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 158
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09c75fdf0cf90a4882f87406666c9ec
+      internalID: -374519006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_108
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 157
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf7ac70b57c8fe4687cc76ba4eae406
+      internalID: -1564491971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_109
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 157
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb78ffdde3750564883ee6753b190c00
+      internalID: 2019957289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_110
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 157
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a42c4757ce364045ae69592b8f4f774
+      internalID: 1890355728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_111
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 156
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e89cf8ea86ac844bc2d3b5089bc714
+      internalID: 386403827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_112
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 156
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55628dcb436271b419a8433fb79e4d76
+      internalID: 112061835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_113
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 155
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e59f251ac40f45b2c9657d421b13e
+      internalID: -839931408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_114
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 154
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa31ca028741bb049bfb97b3a428c59f
+      internalID: 1465800804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_115
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 154
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f288ea540b49f4fa076140c4af5ba8
+      internalID: -1905626033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_116
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 71
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71541476d054cb4bb870f7b348bdf0e
+      internalID: -1466008170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_117
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 85
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0476ee8d2ca3ca458559cb398fd7abd
+      internalID: -1986629593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_118
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 86
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3ff0353a3972243bdde912f087901b
+      internalID: -1633437780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_119
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 85
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65b334e89bed9d4490c0eaad9db4cbd
+      internalID: 529805454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_120
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 85
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6847a4f1046ebed4f8b32a1044bc66f7
+      internalID: -2074445919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_121
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 85
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f436d2f2d217695479e9cf6d9e9f6a96
+      internalID: -2045029852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_122
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 88
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa8bc897e63a2a44a6299cb5eb3ab82
+      internalID: -1182210020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_123
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 88
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7105c64166885e489870728e7a173b1
+      internalID: -41505383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_124
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 88
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f258e510ab4f0e4780e34185cf948d0
+      internalID: 1459144086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_125
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 88
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b9383021854764482ad53c634dbffa
+      internalID: -1356043641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_126
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 88
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd753c916c6d92c4a85d8fd842776427
+      internalID: 34680172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_127
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 85
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36fba19240fd444e9c2bd937e911385
+      internalID: 1065419680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_128
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 85
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5cb1019fe3a284eacfc46d9795751d
+      internalID: 1608839270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_129
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 85
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca38a9a0a7486cb4c8c76e4cba1dff2d
+      internalID: 1049120817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_130
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 87
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f9d3b76a3fcb14ba96231aa270413d
+      internalID: -1935089540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_131
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 85
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6729fc8653c76fe4cb87f78f8ee12882
+      internalID: 639084223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_132
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33440337dca1cc14c8c2344d2b7c4456
+      internalID: -1451756620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_133
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf6290a2993b8c4b907e2116cd560bc
+      internalID: 772588328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_134
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3f71d96f24f184c9906b581c737a27
+      internalID: -429041738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_135
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a71732809c799a4abf97ecdea4e9e6f
+      internalID: -1934095565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_136
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e65c08ed40ad29498184c2688905da2
+      internalID: 1064893384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_137
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00515e0f3e1dd648a52a4fd70bda8a5
+      internalID: 827767443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_138
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134a2ae48c002794d95d5e6cc05f2797
+      internalID: -839479376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_139
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677a44d8ad3f2e04ca1af952448be4b4
+      internalID: 744329820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_140
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97316a087b15204d83e1ba6f57b18ea
+      internalID: 260394544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ml_stud_141
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 5
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68556a352369e254394bf89c22cf58a2
+      internalID: -122732687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 340184aaca71bf74085e27ab39bbedb5
+    internalID: -83212912
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ml_stud_0: -1138658479
+      ml_stud_1: 101150234
+      ml_stud_10: -2066631861
+      ml_stud_100: -1721792650
+      ml_stud_101: 136588578
+      ml_stud_102: 1980849702
+      ml_stud_103: 1102456155
+      ml_stud_104: -229129177
+      ml_stud_105: 1056290004
+      ml_stud_106: 199991788
+      ml_stud_107: -374519006
+      ml_stud_108: -1564491971
+      ml_stud_109: 2019957289
+      ml_stud_11: 1713556960
+      ml_stud_110: 1890355728
+      ml_stud_111: 386403827
+      ml_stud_112: 112061835
+      ml_stud_113: -839931408
+      ml_stud_114: 1465800804
+      ml_stud_115: -1905626033
+      ml_stud_116: -1466008170
+      ml_stud_117: -1986629593
+      ml_stud_118: -1633437780
+      ml_stud_119: 529805454
+      ml_stud_12: -1619178863
+      ml_stud_120: -2074445919
+      ml_stud_121: -2045029852
+      ml_stud_122: -1182210020
+      ml_stud_123: -41505383
+      ml_stud_124: 1459144086
+      ml_stud_125: -1356043641
+      ml_stud_126: 34680172
+      ml_stud_127: 1065419680
+      ml_stud_128: 1608839270
+      ml_stud_129: 1049120817
+      ml_stud_13: 1550434194
+      ml_stud_130: -1935089540
+      ml_stud_131: 639084223
+      ml_stud_132: -1451756620
+      ml_stud_133: 772588328
+      ml_stud_134: -429041738
+      ml_stud_135: -1934095565
+      ml_stud_136: 1064893384
+      ml_stud_137: 827767443
+      ml_stud_138: -839479376
+      ml_stud_139: 744329820
+      ml_stud_14: 1063407447
+      ml_stud_140: 260394544
+      ml_stud_141: -122732687
+      ml_stud_15: 1355393282
+      ml_stud_16: -1365237309
+      ml_stud_17: 435638624
+      ml_stud_18: 439623527
+      ml_stud_19: 2125054846
+      ml_stud_2: 560660569
+      ml_stud_20: -124643952
+      ml_stud_21: 146179450
+      ml_stud_22: 1601403395
+      ml_stud_23: 1127409133
+      ml_stud_24: 1813750925
+      ml_stud_25: 854426581
+      ml_stud_26: -1423109284
+      ml_stud_27: 1755727691
+      ml_stud_28: 456213492
+      ml_stud_29: 368800588
+      ml_stud_3: 968148453
+      ml_stud_30: -945974619
+      ml_stud_31: 2114164321
+      ml_stud_32: -492129151
+      ml_stud_33: 1287144884
+      ml_stud_34: -423034408
+      ml_stud_35: 953144384
+      ml_stud_36: 1872681628
+      ml_stud_37: 1451032464
+      ml_stud_38: 1178076745
+      ml_stud_39: 643253328
+      ml_stud_4: 1578762177
+      ml_stud_40: 836299077
+      ml_stud_41: 1821543085
+      ml_stud_42: -1979311585
+      ml_stud_43: 231386138
+      ml_stud_44: -5733612
+      ml_stud_45: 2122244141
+      ml_stud_46: 362363527
+      ml_stud_47: 1286857448
+      ml_stud_48: 772820204
+      ml_stud_49: 138371040
+      ml_stud_5: -1182714075
+      ml_stud_50: -1528551576
+      ml_stud_51: 1846884230
+      ml_stud_52: 24206198
+      ml_stud_53: -541260157
+      ml_stud_54: -1607107968
+      ml_stud_55: -1402714541
+      ml_stud_56: -1534415951
+      ml_stud_57: 1741509856
+      ml_stud_58: 755118520
+      ml_stud_59: -2034497734
+      ml_stud_6: -947036026
+      ml_stud_60: -767676058
+      ml_stud_61: -1946089204
+      ml_stud_62: 1221785656
+      ml_stud_63: -1229039747
+      ml_stud_64: 1288789626
+      ml_stud_65: -505490396
+      ml_stud_66: -1030528870
+      ml_stud_67: -94094172
+      ml_stud_68: -649914862
+      ml_stud_69: -469207593
+      ml_stud_7: 1387046258
+      ml_stud_70: 695389762
+      ml_stud_71: -941391242
+      ml_stud_72: 1257303598
+      ml_stud_73: -1315436955
+      ml_stud_74: 2046284307
+      ml_stud_75: -400431198
+      ml_stud_76: -70423736
+      ml_stud_77: 881791673
+      ml_stud_78: -1686204622
+      ml_stud_79: -1849840125
+      ml_stud_8: 300986853
+      ml_stud_80: 1480921546
+      ml_stud_81: -1909921308
+      ml_stud_82: 359699467
+      ml_stud_83: 2086049764
+      ml_stud_84: -2089157516
+      ml_stud_85: -51438492
+      ml_stud_86: -595605382
+      ml_stud_87: 528081417
+      ml_stud_88: 1295516657
+      ml_stud_89: -718568299
+      ml_stud_9: 2111385523
+      ml_stud_90: 592158219
+      ml_stud_91: 882504325
+      ml_stud_92: 1012533104
+      ml_stud_93: -1140150098
+      ml_stud_94: -83212997
+      ml_stud_95: -1998270006
+      ml_stud_96: 597846671
+      ml_stud_97: -2077090746
+      ml_stud_98: 1200341420
+      ml_stud_99: -1135056818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
