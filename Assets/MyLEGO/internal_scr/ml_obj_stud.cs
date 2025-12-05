@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ml_obj_stud : MonoBehaviour
 {
+    bool collected = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +17,26 @@ public class ml_obj_stud : MonoBehaviour
     {
         GetComponent<Rigidbody>().transform.LookAt(Camera.main.transform);
 
-        RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit))
+        if (!collected)
         {
-            if (hit.collider.gameObject.name == gameObject.name && Input.GetMouseButtonDown(0))
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log("STUD CLICK !!!");
+                if (hit.collider.gameObject.name == gameObject.name && Input.GetMouseButtonDown(0))
+                {
+                    Debug.Log("move !!!");
+                    collected = true;
+                }
+            }
+        }
+        else
+        {
+            Vector3 stopPos = GameObject.Find("ML_Camera_Stud_Stop").transform.position;
+            transform.position = Vector3.MoveTowards(transform.position, stopPos, 0.4f);
+            if (transform.position.Equals(stopPos))
+            {
+                Destroy(gameObject);
             }
         }
     }
