@@ -124,6 +124,7 @@ public class ml_build_brick : MonoBehaviour
 
         float newSpeed = (MOVE_SPEED / 10);
         body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, newSpeed);
+        //body.transform.position = oldPos;
         body.transform.rotation = oldRot;
     }
 
@@ -131,7 +132,7 @@ public class ml_build_brick : MonoBehaviour
     {
         if (!playBuildSound)
         {
-            Debug.Log("playBuildSound");
+            //Debug.Log("playBuildSound");
             snd.Play();
             playBuildSound = true;
         }
