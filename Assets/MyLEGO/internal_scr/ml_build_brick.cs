@@ -34,7 +34,7 @@ public class ml_build_brick : MonoBehaviour
     /*public */static float BounceTimer = 50;
     /*public */float BounceTick = 0;
     public bool Bouncing { get { return state == STT_BOUNCE; } }
-    public bool Building { get { return state == STT_BUILD; } }
+    public bool Building { get { return state == STT_BUILD && body != null; } }
     public bool Inactive { get { return state == STT_INACTIVE; } }
 
     // collision listening

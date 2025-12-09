@@ -20,7 +20,7 @@ public class MyLEGOBuild : MonoBehaviour
     public double BuildAnimationSpeed = 5;
     public bool EnableSound = true;
     public bool DoBounceAnimation = true;
-    public bool DestroyIfBuildIsUnfinished = true;
+    public bool RestartIfBuildIsUnfinished = true;
     public Transform DestinationPosition = null;
     //bool printwarn = false;
     public int GetBrickCount()
@@ -107,14 +107,12 @@ public class MyLEGOBuild : MonoBehaviour
             {
                 if (brick.Built())
                 {
-                    Debug.Log("BUILT");
                     buildIndex += buildIndex > GetBrickCount() ? 0 : 1;
                     if (EnableSound) brick.BuildSound();
                     brick.PostBuildGoto();
                 }
                 else
                 {
-                    Debug.Log("BUILDING");
                     brick.BuildGoto(BuildAnimationSpeed);
                 }
             }
@@ -128,9 +126,10 @@ public class MyLEGOBuild : MonoBehaviour
             }
             else
             {
-                brick.DoBounceLoop();
+                if (brick.Built() && RestartIfBuildIsUnfinished)
+                    brick.DoBounceLoop();
             }
-        }
+        } // for
 
         if (buildIndex >= GetBrickCount() && !built)
         {
