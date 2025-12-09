@@ -19,6 +19,8 @@ public class MyLEGOBuild : MonoBehaviour
     /// </summary>
     public double BuildAnimationSpeed = 5;
     public bool EnableSound = true;
+    public bool DoBounceAnimation = true;
+    public Vector3 DestinationPosition = Vector3.zero;
     //bool printwarn = false;
     public int GetBrickCount()
     {
@@ -80,7 +82,7 @@ public class MyLEGOBuild : MonoBehaviour
                 brick.DoBounceTick();
                 if (brick.CanBounce())
                 {
-                    ml_utils.SetVelocityY(brick.hRigidbody, 5);
+                    if (DoBounceAnimation) ml_utils.SetVelocityY(brick.hRigidbody, 5);
                     brick.ResetBounceTick();
                 }
             }
