@@ -26,6 +26,7 @@ public class ml_build_brick : MonoBehaviour
     public BoxCollider hBoxCollider { get { return collider; } }
 
     // building
+    Vector3 oldPosOff;
     Vector3 oldPos;
     Quaternion oldRot;
 
@@ -74,8 +75,14 @@ public class ml_build_brick : MonoBehaviour
         body.isKinematic = true;
         body.angularDrag = 0.1f;
         body.mass = 500f;
+        body.useGravity = false;
 
         DoBounceLoop();
+    }
+
+    public void OffsetDest(Vector3 off)
+    {
+        oldPos += off;
     }
 
     // states
@@ -134,7 +141,7 @@ public class ml_build_brick : MonoBehaviour
         }
         else
         {
-            body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, ((float)newSpeed) * (Time.deltaTime * 100));
+            body.transform.position = oldPos;
         }
         //body.transform.position = oldPos;
         body.transform.rotation = oldRot;
@@ -158,7 +165,7 @@ public class ml_build_brick : MonoBehaviour
 
     public bool Built()
     {
-        return Equals(oldPos, body.transform.position);
+        return (Mathf.Abs(oldPos.sqrMagnitude - body.transform.position.sqrMagnitude) < 0.01);
     }
 
     // done!

@@ -20,15 +20,30 @@ public class MyLEGOBuild : MonoBehaviour
     public double BuildAnimationSpeed = 5;
     public bool EnableSound = true;
     public bool DoBounceAnimation = true;
-    public Vector3 DestinationPosition = Vector3.zero;
+    public bool DestroyIfBuildIsUnfinished = true;
+    public Transform DestinationPosition = null;
     //bool printwarn = false;
     public int GetBrickCount()
     {
         return bricks.Count;
     }
 
+    Vector3 getOffPos()
+    {
+        Vector3 chosen;
+        if (DestinationPosition == null)
+        {
+            chosen = transform.position;
+        }
+        else
+        {
+            chosen = DestinationPosition.position;
+        }
+        return chosen;
+    }
+
     List<ml_build_brick> bricks;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +71,7 @@ public class MyLEGOBuild : MonoBehaviour
             }
 
             brick.Start();
+            brick.OffsetDest(getOffPos() - transform.position);
 
             bricks.Add(brick);
         }
@@ -91,12 +107,14 @@ public class MyLEGOBuild : MonoBehaviour
             {
                 if (brick.Built())
                 {
+                    Debug.Log("BUILT");
                     buildIndex += buildIndex > GetBrickCount() ? 0 : 1;
                     if (EnableSound) brick.BuildSound();
                     brick.PostBuildGoto();
                 }
                 else
                 {
+                    Debug.Log("BUILDING");
                     brick.BuildGoto(BuildAnimationSpeed);
                 }
             }
