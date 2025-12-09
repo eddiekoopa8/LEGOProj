@@ -68,6 +68,9 @@ public class MyLEGOFigure : MonoBehaviour
 
     void Start()
     {
+
+        Debug.Assert(GetComponent<Collider>() != null, "no collider. click wont work");
+        Debug.Assert(GetComponent<MyLEGOBuild>() == null, "STOP STOP STOP!!!! DO NOT COMBINE FIGURE AND BUILD!!!!");
         snd = gameObject.AddComponent<AudioSource>();
         snd.clip = Resources.Load(ml_globals.AUDIO + "break") as AudioClip;
         snd.playOnAwake = false;

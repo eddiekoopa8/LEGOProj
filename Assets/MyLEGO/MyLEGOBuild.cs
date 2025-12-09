@@ -4,8 +4,21 @@ using System.Linq;
 using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 
+/*
+ * THIS CODE IS FOR EDDIE HILL TO HANDLE
+ * IF YOU ARE NOT EDDIE, LEAVE THIS ALONE !
+ */
+
 public class MyLEGOBuild : MonoBehaviour
 {
+    public bool StartBuildingAutomatically = false;
+    public bool DebugMode = true;
+
+    /// <summary>
+    /// Change the value under 0 to play no animation
+    /// </summary>
+    public double BuildAnimationSpeed = 5;
+    public bool EnableSound = true;
     //bool printwarn = false;
     public int GetBrickCount()
     {
@@ -17,6 +30,7 @@ public class MyLEGOBuild : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Assert(GetComponent<MyLEGOFigure>() == null, "STOP STOP STOP!!!! DO NOT COMBINE FIGURE AND BUILD!!!!");
         bricks = new List<ml_build_brick>();
 
         foreach (Transform child in this.transform)
@@ -76,16 +90,16 @@ public class MyLEGOBuild : MonoBehaviour
                 if (brick.Built())
                 {
                     buildIndex += buildIndex > GetBrickCount() ? 0 : 1;
-                    brick.BuildSound();
+                    if (EnableSound) brick.BuildSound();
                     brick.PostBuildGoto();
                 }
                 else
                 {
-                    brick.BuildGoto();
+                    brick.BuildGoto(BuildAnimationSpeed);
                 }
             }
 
-            if (Input.GetKey(KeyCode.Space))
+            if ((Input.GetKey(KeyCode.Space) && DebugMode) || StartBuildingAutomatically)
             {
                 if (i <= buildIndex)
                 {
@@ -114,5 +128,15 @@ public class MyLEGOBuild : MonoBehaviour
             Debug.Log("done");
             built = true;
         }
+    }
+
+    public void StartBuild()
+    {
+        StartBuildingAutomatically = true;
+    }
+
+    public void EndBuild()
+    {
+        StartBuildingAutomatically = false;
     }
 }

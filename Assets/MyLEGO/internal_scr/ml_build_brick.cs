@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-// STRUCT CLASS FOR MyLEGOBuild
+
+/*
+ * THIS CODE IS FOR EDDIE HILL TO HANDLE
+ * IF YOU ARE NOT EDDIE, LEAVE THIS ALONE !
+ */
+
 public class ml_build_brick : MonoBehaviour
 {
 
@@ -88,7 +93,7 @@ public class ml_build_brick : MonoBehaviour
         collider.enabled = Bouncing;
         body.isKinematic = !Bouncing;
 
-        body.velocity = Vector3.zero;
+        if (!body.isKinematic) body.velocity = Vector3.zero;
     }
 
     // bounce
@@ -118,12 +123,19 @@ public class ml_build_brick : MonoBehaviour
     }
 
     // building
-    public void BuildGoto()
+    public void BuildGoto(double ass)
     {
         playBuildSound = false;
-
-        float newSpeed = (MOVE_SPEED / 10);
-        body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, newSpeed);
+        double newSpeed = MOVE_SPEED / 10.0;
+        //Debug.Log("newSpeed:" + newSpeed);
+        if (ass < 0)
+        {
+            body.transform.position = oldPos;
+        }
+        else
+        {
+            body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, ((float)newSpeed) * (Time.deltaTime * 100));
+        }
         //body.transform.position = oldPos;
         body.transform.rotation = oldRot;
     }
