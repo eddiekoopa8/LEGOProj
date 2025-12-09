@@ -235,10 +235,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48ad3909f633e6449f2226786dd01e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartBuildingAutomatically: 1
+  StartBuildingAutomatically: 0
   DebugMode: 1
-  BuildAnimationSpeed: -2.52
+  BuildAnimationSpeed: 500
   EnableSound: 0
+  DoBounceAnimation: 1
+  RestartIfBuildIsUnfinished: 1
+  DestinationPosition: {fileID: 0}
 --- !u!1001 &258273840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -783,8 +786,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartBuildingAutomatically: 0
   DebugMode: 1
-  BuildAnimationSpeed: 5
+  BuildAnimationSpeed: 15
   EnableSound: 1
+  DoBounceAnimation: 1
+  RestartIfBuildIsUnfinished: 1
+  DestinationPosition: {fileID: 0}
 --- !u!1001 &1466157609
 PrefabInstance:
   m_ObjectHideFlags: 0
