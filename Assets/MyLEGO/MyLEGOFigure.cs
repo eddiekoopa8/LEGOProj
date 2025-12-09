@@ -5,7 +5,6 @@ using System.Security.Principal;
 using System.Text;
 using UnityEditor.SceneManagement;
 using UnityEngine;
-
 public class MyLEGOFigure : MonoBehaviour
 {
     bool Broken = false;

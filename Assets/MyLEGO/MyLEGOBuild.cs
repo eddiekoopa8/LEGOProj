@@ -1,23 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 
-/*
- * THIS CODE IS FOR EDDIE HILL TO HANDLE
- * IF YOU ARE NOT EDDIE, LEAVE THIS ALONE !
- */
-
 public class MyLEGOBuild : MonoBehaviour
 {
     public bool StartBuildingAutomatically = false;
-    public bool DebugMode = true;
-
-    /// <summary>
-    /// Change the value under 0 to play no animation
-    /// </summary>
-    public double BuildAnimationSpeed = 5;
+    public bool DebugMode = false;
+    public double BuildAnimationSpeed = 15;
     public bool EnableSound = true;
     public bool DoBounceAnimation = true;
     public bool RestartIfBuildIsUnfinished = true;
@@ -117,7 +109,7 @@ public class MyLEGOBuild : MonoBehaviour
                 }
             }
 
-            if ((Input.GetKey(KeyCode.Space) && DebugMode) || StartBuildingAutomatically)
+            if (StartBuildingAutomatically)
             {
                 if (i <= buildIndex)
                 {
@@ -128,6 +120,18 @@ public class MyLEGOBuild : MonoBehaviour
             {
                 if (brick.Built() && RestartIfBuildIsUnfinished)
                     brick.DoBounceLoop();
+            }
+
+            if (DebugMode)
+            {
+                if (Input.GetKey(KeyCode.Space))
+                {
+                    StartBuild();
+                }
+                else
+                {
+                    StopBuild();
+                }
             }
         } // for
 
@@ -154,7 +158,7 @@ public class MyLEGOBuild : MonoBehaviour
         StartBuildingAutomatically = true;
     }
 
-    public void EndBuild()
+    public void StopBuild()
     {
         StartBuildingAutomatically = false;
     }

@@ -2,13 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
-
-/*
- * THIS CODE IS FOR EDDIE HILL TO HANDLE
- * IF YOU ARE NOT EDDIE, LEAVE THIS ALONE !
- */
-
 public class ml_build_brick : MonoBehaviour
 {
 
