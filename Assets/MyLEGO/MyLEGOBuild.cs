@@ -80,7 +80,7 @@ public class MyLEGOBuild : MonoBehaviour
                 brick.DoBounceTick();
                 if (brick.CanBounce())
                 {
-                    utils.SetVelocityY(brick.hRigidbody, 5);
+                    ml_utils.SetVelocityY(brick.hRigidbody, 5);
                     brick.ResetBounceTick();
                 }
             }
@@ -124,7 +124,7 @@ public class MyLEGOBuild : MonoBehaviour
                 }
                 bricks.ElementAt(i).SetInactive();
             }
-            utils.SetVelocityY(gameObject.GetComponent<Rigidbody>(), 5);
+            ml_utils.SetVelocityY(gameObject.GetComponent<Rigidbody>(), 5);
             Debug.Log("done");
             built = true;
         }

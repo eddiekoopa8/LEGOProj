@@ -38,9 +38,9 @@ public class MyLEGOFigure : MonoBehaviour
             objChild.GetComponent<Rigidbody>().angularDrag = 0.1f;
             objChild.GetComponent<Rigidbody>().mass = 100f;
 
-            utils.SetVelocityX(objChild.GetComponent<Rigidbody>(), randInt(-breakIntensity, breakIntensity));
-            utils.SetVelocityY(objChild.GetComponent<Rigidbody>(), (float)(breakIntensity / 1.5));
-            utils.SetVelocityZ(objChild.GetComponent<Rigidbody>(), randInt(-breakIntensity, breakIntensity));
+            ml_utils.SetVelocityX(objChild.GetComponent<Rigidbody>(), randInt(-breakIntensity, breakIntensity));
+            ml_utils.SetVelocityY(objChild.GetComponent<Rigidbody>(), (float)(breakIntensity / 1.5));
+            ml_utils.SetVelocityZ(objChild.GetComponent<Rigidbody>(), randInt(-breakIntensity, breakIntensity));
 
             if (GetComponent<Rigidbody>() != null) GetComponent<Rigidbody>().isKinematic = true;
             if (GetComponent<Collider>() != null) GetComponent<Collider>().enabled = true;
