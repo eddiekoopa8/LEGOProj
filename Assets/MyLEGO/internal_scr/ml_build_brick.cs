@@ -75,7 +75,6 @@ public class ml_build_brick : MonoBehaviour
         body.isKinematic = true;
         body.angularDrag = 0.1f;
         body.mass = 500f;
-        body.useGravity = false;
 
         DoBounceLoop();
     }
@@ -84,21 +83,24 @@ public class ml_build_brick : MonoBehaviour
     {
         oldPos += off;
     }
-
+    public void DoLoop()
+    {
+        collider.enabled = Bouncing;
+        body.isKinematic = !Bouncing;
+        body.useGravity = Bouncing;
+    }
     // states
     public void DoBounceLoop()
     {
         state = STT_BOUNCE;
 
-        collider.enabled = Bouncing;
-        body.isKinematic = !Bouncing;
+        DoLoop();
     }
     public void DoBuildLoop()
     {
         state = STT_BUILD;
 
-        collider.enabled = Bouncing;
-        body.isKinematic = !Bouncing;
+        DoLoop();
 
         if (!body.isKinematic) body.velocity = Vector3.zero;
     }
@@ -133,15 +135,17 @@ public class ml_build_brick : MonoBehaviour
     public void BuildGoto(double ass)
     {
         playBuildSound = false;
-        double newSpeed = MOVE_SPEED / 10.0;
+        double newSpeed = ass / 10.0;
         //Debug.Log("newSpeed:" + newSpeed);
         if (ass < 0)
         {
+            // Instant
             body.transform.position = oldPos;
         }
         else
         {
-            body.transform.position = oldPos;
+            // Movement
+            body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, (float)newSpeed);
         }
         //body.transform.position = oldPos;
         body.transform.rotation = oldRot;
