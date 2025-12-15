@@ -26,19 +26,16 @@ public class ml_utils
     public static void SetRotateX(Rigidbody body, float val)
     {
         var v = body.GetComponent<Rigidbody>().rotation;
-        v.x += val;
-        body.GetComponent<Rigidbody>().rotation = v;
+        body.GetComponent<Rigidbody>().rotation = Quaternion.FromToRotation(new Vector3(v.x, v.y, v.z), new Vector3(v.x + val, v.y, v.z));
     }
     public static void SetRotateY(Rigidbody body, float val)
     {
         var v = body.GetComponent<Rigidbody>().rotation;
-        v.y += val;
-        body.GetComponent<Rigidbody>().rotation = v;
+        body.GetComponent<Rigidbody>().rotation = Quaternion.FromToRotation(new Vector3(v.x, v.y, v.z), new Vector3(v.x, v.y + val, v.z));
     }
     public static void SetRotateZ(Rigidbody body, float val)
     {
         var v = body.GetComponent<Rigidbody>().rotation;
-        v.z += val;
-        body.GetComponent<Rigidbody>().rotation = v;
+        body.GetComponent<Rigidbody>().rotation = Quaternion.FromToRotation(new Vector3(v.x, v.y, v.z), new Vector3(v.x, v.y, v.z + val));
     }
 }
