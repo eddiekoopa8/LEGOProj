@@ -40,4 +40,13 @@ public class ml_obj_stud : MonoBehaviour
             }
         }
     }
+    
+    public void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.GetComponent<MyLEGOPlayer>() != null)
+        {
+            Debug.Log("COLECT");
+            collected = true;
+        }
+    }
 }

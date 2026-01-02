@@ -55,8 +55,8 @@ public class ml_build_brick : MonoBehaviour
         Object = null;
         collider = gameObject.AddComponent<BoxCollider>();
         body = gameObject.AddComponent<Rigidbody>();
-        Debug.Assert(collider != null, "collider failed to be born. attempting to get existing");
-        Debug.Assert(body != null, "body failed to be born. attempting to get existing");
+        //Debug.Assert(collider != null, "collider failed to be born. attempting to get existing");
+        //Debug.Assert(body != null, "body failed to be born. attempting to get existing");
         if (collider == null)
         {
             collider = gameObject.GetComponent<BoxCollider>();
