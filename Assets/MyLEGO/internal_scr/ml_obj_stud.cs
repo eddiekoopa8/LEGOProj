@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 public class ml_obj_stud : MonoBehaviour
 {
     bool collected = false;
+    bool sound = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +33,13 @@ public class ml_obj_stud : MonoBehaviour
         }
         else
         {
+            if (!sound) {
+                GetComponent<AudioSource>().Play();
+                sound = true;
+            }
+            GetComponent<Collider>().enabled = false;
             Vector3 stopPos = GameObject.Find("ML_Camera_Stud_Stop").transform.position;
-            transform.position = Vector3.MoveTowards(transform.position, stopPos, 0.4f);
+            transform.position = Vector3.MoveTowards(transform.position, stopPos, Time.deltaTime * 10);
             if (transform.position.Equals(stopPos))
             {
                 Destroy(gameObject);
@@ -41,9 +47,9 @@ public class ml_obj_stud : MonoBehaviour
         }
     }
     
-    public void OnCollisionEnter2D(Collision2D col)
+    public void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.GetComponent<MyLEGOPlayer>() != null)
+        if (col.gameObject.GetComponent<MyLEGOPlayer>() != null && !collected)
         {
             Debug.Log("COLECT");
             collected = true;

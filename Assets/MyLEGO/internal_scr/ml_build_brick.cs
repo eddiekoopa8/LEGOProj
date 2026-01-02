@@ -128,7 +128,9 @@ public class ml_build_brick : MonoBehaviour
     public void BuildGoto(double ass)
     {
         playBuildSound = false;
-        double newSpeed = ass / 10.0;
+        //double newSpeed = ass / 10.0;
+        float distance = Vector3.Distance(body.transform.position, oldPos);
+        float newSpeed = (distance / 2.0f);
         //Debug.Log("newSpeed:" + newSpeed);
         if (ass < 0)
         {
@@ -138,7 +140,7 @@ public class ml_build_brick : MonoBehaviour
         else
         {
             // Movement
-            body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, (float)newSpeed);
+            body.transform.position = Vector3.MoveTowards(body.transform.position, oldPos, (float)((newSpeed * 1.89f) * (Time.deltaTime * 15)));
         }
         //body.transform.position = oldPos;
         body.transform.rotation = oldRot;

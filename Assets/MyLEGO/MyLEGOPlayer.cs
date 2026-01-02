@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MyLEGOPlayer : MyLEGOFigure
 {
-    float speed = 10;
+    float speed = 8f;
     Rigidbody body;
     bool turning = false;
     void Start()
@@ -23,14 +23,14 @@ public class MyLEGOPlayer : MyLEGOFigure
         if (Input.GetKey(KeyCode.UpArrow))
         {
             //body.rotation = Quaternion.Euler(0, 0, 0);
-            ml_utils.SetVelocityX(body, transform.forward.x * (speed * (turning ? 0.5f : 1)));
-            ml_utils.SetVelocityZ(body, transform.forward.z * (speed * (turning ? 0.5f : 1)));
+            ml_utils.SetVelocityX(body, transform.forward.x * ((speed * (turning ? 0.75f : 1)) * (Time.deltaTime * 10)));
+            ml_utils.SetVelocityZ(body, transform.forward.z * ((speed * (turning ? 0.75f : 1)) * (Time.deltaTime * 10)));
         }
         else  if (Input.GetKey(KeyCode.DownArrow))
         {
             //body.rotation = Quaternion.Euler(0, 0, 0);
-            ml_utils.SetVelocityX(body, transform.forward.x * -(speed * (turning ? 0.5f : 1)));
-            ml_utils.SetVelocityZ(body, transform.forward.z * -(speed * (turning ? 0.5f : 1)));
+            ml_utils.SetVelocityX(body, transform.forward.x * -((speed * (turning ? 0.75f : 1)) * (Time.deltaTime * 10)));
+            ml_utils.SetVelocityZ(body, transform.forward.z * -((speed * (turning ? 0.75f : 1)) * (Time.deltaTime * 10)));
         }
         /*else if (Input.GetKey(KeyCode.DownArrow))
         {
@@ -46,17 +46,22 @@ public class MyLEGOPlayer : MyLEGOFigure
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            body.transform.eulerAngles += new Vector3(0,-4,0);
+            body.transform.eulerAngles += new Vector3(0,-6 * (Time.deltaTime * 10),0);
             turning = true;
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            body.transform.eulerAngles += new Vector3(0,4,0);
+            body.transform.eulerAngles += new Vector3(0,6 * (Time.deltaTime * 10),0);
             turning = true;
         }
         else
         {
             turning = false;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Space) && (body.velocity.y > -0.01 && body.velocity.y < 0.01))
+        {
+            ml_utils.SetVelocityY(body, 6);
         }
     }
 }

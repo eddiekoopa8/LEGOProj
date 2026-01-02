@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 
 public class MyLEGOBuild : MonoBehaviour
@@ -10,6 +9,7 @@ public class MyLEGOBuild : MonoBehaviour
     public bool StartBuildingAutomatically = false;
     public bool DebugMode = false;
     public double BuildAnimationSpeed = 15;
+    public float BounceHeight = 5;
     public bool EnableSound = true;
     public bool DoBounceAnimation = true;
     public bool RestartIfBuildIsUnfinished = true;
@@ -90,7 +90,7 @@ public class MyLEGOBuild : MonoBehaviour
                 brick.DoBounceTick();
                 if (brick.CanBounce())
                 {
-                    if (DoBounceAnimation) ml_utils.SetVelocityY(brick.hRigidbody, 5);
+                    if (DoBounceAnimation) ml_utils.SetVelocityY(brick.hRigidbody, BounceHeight);
                     brick.ResetBounceTick();
                 }
             }

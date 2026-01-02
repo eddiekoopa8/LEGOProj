@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Principal;
 using System.Text;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 public class MyLEGOFigure : MonoBehaviour
 {
